@@ -121,6 +121,11 @@
   .btn {
     background-color: #F2F2F2;
     border: 1px solid #999;
+    cursor: pointer;
+  }
+
+  .btn:active{
+    transform: scale(1.05);
   }
 
   .operator {
